@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Dela+Gothic+One&family=Gabarito&family=PT+Sans&family=Pacifico&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@200&family=Young+Serif&display=swap');
+
+
+html {
+    background-color: black ;
+
+    
+}
+h1 {
+    color: rgb(189, 30, 30);
+    font-size: 80px;
+    background-color: rgb(54, 173, 197);
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-right: 10px;
+    text-shadow: 2px 2px 4px white;
+    
+    }
+
+img {
+ margin-left: 300px;
+ width: 1100px;
+ height: 500px;
+ margin-top: 0px;
+}
+.hover:hover {
+    color: rgb(255, 0, 106);
+}
+.columna {
+    width: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.columna 2 {
+    width: 95%;
+    padding: 200px;
+    box-sizing: border-box;
+}
+
+.columna 2 img {
+    width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+}
+
+.columnas {
+    display: flex;
+}
+p, nav {
+    color: white;
+    font-size: 30px;
+}
+@media only screen and (max-width: 865px) 
+@media only screen and (max-width: 440px) 
